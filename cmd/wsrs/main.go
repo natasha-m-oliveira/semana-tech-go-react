@@ -10,8 +10,8 @@ import (
 
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/joho/godotenv"
-	"github.com/natasha-m-oliveira/semana-tech-go-react/internal/api"
-	"github.com/natasha-m-oliveira/semana-tech-go-react/internal/store/pgstore"
+	"github.com/natasha-m-oliveira/semana-tech-go-react-server/internal/api"
+	"github.com/natasha-m-oliveira/semana-tech-go-react-server/internal/store/pgstore"
 )
 
 func main() {

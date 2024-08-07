@@ -1,4 +1,4 @@
-module github.com/natasha-m-oliveira/semana-tech-go-react
+module github.com/natasha-m-oliveira/semana-tech-go-react-server
 
 go 1.22.5
 
@@ -10,6 +10,8 @@ require (
 )
 
 require (
+	github.com/go-chi/cors v1.2.1 // indirect
+	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a // indirect
 	github.com/jackc/puddle/v2 v2.2.1 // indirect
