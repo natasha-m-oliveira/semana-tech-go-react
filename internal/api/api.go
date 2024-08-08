@@ -153,7 +153,7 @@ func (h apiHandler) handleSubscribe(w http.ResponseWriter, r *http.Request) {
 
 	slog.Info("new client connected", "room_id", rawRoomID, "client_id", r.RemoteAddr)
 	h.subscribers[rawRoomID][c] = cancel
-	h.mu.Lock()
+	h.mu.Unlock()
 
 	<-ctx.Done()
 
